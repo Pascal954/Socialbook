@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/92e32f0a7a.js" crossorigin="anonymous"></script>
+    <title>Profile page - Socialbook</title>
+</head>
+<body>
+    
+<nav>
+<div class="nav-left">
+    <a class="next" href="index.html">
+    <h2 class="logo">Socialbook</h2>
+    </a>
+    <ul>
+        <li><img src="./photos/icons8-notification-24.png"></li>
+        <li><img src="./photos/icons8-conversation-24.png"></li>
+        <li><img src="./photos/icons8-video-24.png"></li>
+         
+        
+    </ul>
+</div>
+<div class="nav-right">
+    <div class="search-box">
+        <img src="./photos/search-line.png" alt="">
+        <input type="text" placeholder="search">
+    </div>
+    <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+        <img src="./photos/profile pic.webp">
+    </div>
+</div>
+
+<!---------------------- settings-menu ----------------------->
+    <div class="settings-menu">
+
+        <div id="dark-btn">
+            <span></span>
+        </div>
+
+        <div class="settings-menu-inner">
+            <div class="user-porfile">
+                <img src="./photos/profile pic.webp">
+                <div>
+                    <p>Pascal Chidera</p>
+                    <a href="profile.html">See your profile</a>
+                </div>
+            </div>
+            <hr>
+    
+            <div class="user-porfile">
+                <img src="./photos/gray feedback-fill.png">
+                <div>
+                    <p>Give Feedback</p>
+                    <a href="#">Help us to improve the new design</a>
+                </div>
+            </div>
+            <hr>
+
+            <div class="settings-links">
+                <img src="./photos/gray-setting-50.png" class="settings-icon">
+                <a href="#">Settings & Privacy <img src="./photos/arrow-right-s-line.png" width="10px"  bg="1px solid red"></a>
+            </div>
+
+            <div class="settings-links">
+                <img src="./photos/gray question.png" class="settings-icon">
+                <a href="#">Help & Suppport <img src="./photos/arrow-right-s-line.png" width="10px" ></a>
+            </div>
+
+            <div class="settings-links">
+                <img src="./photos/gray moon-fill.png" class="settings-icon">
+                <a href="#">Display & Accessibiility <img src="./photos/arrow-right-s-line.png" width="10px" ></a>
+            </div>
+
+            <div class="settings-links">
+                <img src="./photos/gray login-box-fill.png" class="settings-icon">
+                <a href="#">Logout <img src="./photos/arrow-right-s-line.png" width="10px" ></a>
+            </div>
+
+
+
+        </div>
+       
+    </div>
+</nav>
+
+<!------------------- profile page ----------------------->
+<div class="profile-container">
+    <img src="./photos/cover img2.gif" class="cover-img" width="100%" height="400px">
+
+    <div class="profile-details">
+        <div class="pd-left">
+            <div class="pd-row">
+                <img src="./photos/profile pic.webp" class="pd-images">
+                <div>
+                    <h3>Akinlade Basit</h3>
+                    <p>120 Friends - 20 mutual</p>
+                    <img src="./photos/Africa-2.webp" >
+                    <img src="./photos/Africa-1.png" >
+                    <img src="./photos/Africa-3.webp" >
+                    <img src="./photos/Africa-4.webp" >
+                </div>
+            </div>
+        </div>
+        <div class="pd-right">
+
+            <button type="button"> <img src="./photos/icons8-add-user-50.png">Friend</button>
+            <button type="button"> <img src="./photos/icons8-message-48.png">Message</button>
+            <br>
+            <a href=""><img src="./photos/icons8-more-24.png"></a>
+
+        </div>
+    </div>
+
+    <div class="profile-info">
+        <div class="info-col">
+
+            <div class="profile-intro">
+                <h3>Intro</h3>
+                <p class="intro-text">Believe in yourself and you can do unbelieveable things. <img src="./photos/emotion-happy-line.png"></p>
+                <hr>
+                <ul>
+                    <li> <img src="./photos/icons8-luggage-64.png" width="35px">Director at 99media Ltd</li>
+                    <li> <img src="./photos/icons8-graduate-30.png">Studied at Federal polytechnic</li>
+                    <li> <img src="./photos/icons8-graduate-30.png">Went to DAI</li>
+                    <li> <img src="./photos/icons8-home-24.png">Lives in Akoka, Lagos</li>
+                    <li> <img src="./photos/icons8-location-50.png" width="35px">From Akoka, Lagos</li>
+                </ul>
+            </div>
+
+
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Photos</h3>
+                    <a href="">All photos</a>
+                </div>
+                
+                <div class="photo-box">
+                    <div><img src="./photos/profile pic.webp"></div>
+                    <div><img src="./photos/profile pic.webp"></div>
+                    <div><img src="./photos/profile pic.webp"></div>
+                    <div><img src="./photos/profile pic.webp"></div>
+                    <div><img src="./photos/profile pic.webp"></div>
+                    <div><img src="./photos/profile pic.webp"></div>
+                </div>
+            </div>
+
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Friends</h3>
+                    <a href="">All Friends</a>
+                </div>
+                <p>120 (10 mutual)</p>
+                
+        <div class="friends-box">
+            <div><img src="./photos/profile pic.webp"><p>Pascal C</p></div>
+            <div><img src="./photos/profile pic.webp"><p>Basit A</p></div>
+            <div><img src="./photos/profile pic.webp"><p>Isa B</p></div>
+            <div><img src="./photos/profile pic.webp"><p>Elijah B</p></div>
+            <div><img src="./photos/profile pic.webp"><p>Joseph A</p></div>
+            <div><img src="./photos/profile pic.webp"><p>Bidemi A</p></div>
+            <div><img src="./photos/profile pic.webp"><p>Jesushina T</p></div>
+            <div><img src="./photos/profile pic.webp"><p>Dami O</p></div>
+            <div><img src="./photos/profile pic.webp"><p>Chidera A</p></div>
+        </div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="post-col">
+            <div class="write-post-container">
+                <div class="user-porfile">
+                    <img src="./photos/profile pic.webp">
+                    <div>
+                        <p>Pascal Chidera</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+        
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="what's on your mind,? Pascal"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="./photos/video-add-fill.png"> Live Video</a>
+                        <a href="#"><img src="./photos/camera-line.png"> Photo/Video</a>
+                        <a href="#"><img src="./photos/emotion-happy-line.png"> Feeling/Activity</a>
+        
+                    </div>
+                </div>
+        
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-porfile">
+                        <img src="./photos/profile pic.webp">
+                        <div>
+                            <p>Pascal Chidera</p>
+                            <span>October 5 2023, 1:18pm </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Subscribe <span></span> Youtube channel to watch more videos on website development and UI designs. <a href="#"></a> <a href="#"></a></p>
+                <img src="./photos/Africa-2.webp" class="post-img">
+    
+    <div class="post-row">
+        <div class="activity-icons">
+                <div><img src="./photos/blue icons8-like-24.png">120</div>
+                <div><img src="./photos/discuss-fill.png">45</div>
+                <div><img src="./photos/share-forward-fill.png">20</div>  
+        </div>
+        <div class="post-profile-icon"><img src="./photos/profile pic.webp">
+            <i class="fa-solid fa-caret-down"></i>
+        </div>
+                 
+    </div>
+    </div>
+    
+    <div class="post-container">
+        <div class="post-row">
+            <div class="user-porfile">
+                <img src="./photos/profile pic.webp">
+                <div>
+                    <p>Pascal Chidera</p>
+                    <span>October 5 2023, 1:18pm </span>
+                </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+        </div>
+        <p class="post-text">Like and share this video with friends, tag <span></span> facebook page on your post. Ask your doubts in the comments <a href="#"></a> <a href="#"></a></p>
+        <img src="./photos/Africa-3.webp" class="post-img">
+    
+    <div class="post-row">
+    <div class="activity-icons">
+        <div><img src="./photos/blue icons8-like-24.png">120</div>
+        <div><img src="./photos/discuss-fill.png">45</div>
+        <div><img src="./photos/share-forward-fill.png">20</div>  
+    </div>
+    <div class="post-profile-icon"><img src="./photos/profile pic.webp">
+    <i class="fa-solid fa-caret-down"></i>
+    </div>
+         
+    </div>
+    </div>
+    
+    <div class="post-container">
+        <div class="post-row">
+            <div class="user-porfile">
+                <img src="./photos/profile pic.webp">
+                <div>
+                    <p>Pascal Chidera</p>
+                    <span>October 5 2023, 1:18pm </span>
+                </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+        </div>
+        <p class="post-text">Like and share this video with friends, tag <span>@Easy Tutorials</span> facebook page on your post. Ask your doubts in the comments <a href="#"></a> <a href="#"></a></p>
+        <img src="./photos/Africa-4.webp" class="post-img">
+    
+    <div class="post-row">
+    <div class="activity-icons">
+        <div><img src="./photos/blue icons8-like-24.png">120</div>
+        <div><img src="./photos/discuss-fill.png">45</div>
+        <div><img src="./photos/share-forward-fill.png">20</div>  
+    </div>
+    <div class="post-profile-icon"><img src="./photos/profile pic.webp">
+    <i class="fa-solid fa-caret-down"></i>
+    </div>
+         
+    </div>
+    </div>
+    
+    <div class="post-container">
+        <div class="post-row">
+            <div class="user-porfile">
+                <img src="./photos/profile pic.webp">
+                <div>
+                    <p>Pascal Chidera</p>
+                    <span>October 5 2023, 1:18pm </span>
+                </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+        </div>
+        <p class="post-text">Like and share this video with friends, tag <span></span> facebook page on your post. Ask your doubts in the comments <a href="#"></a> <a href="#"></a></p>
+        <img src="./photos/Africa-2.webp" class="post-img">
+    
+    <div class="post-row">
+    <div class="activity-icons">
+        <div><img src="./photos/blue icons8-like-24.png">120</div>
+        <div><img src="./photos/discuss-fill.png">45</div>
+        <div><img src="./photos/share-forward-fill.png">20</div>  
+    </div>
+    <div class="post-profile-icon"><img src="./photos/profile pic.webp">
+    <i class="fa-solid fa-caret-down"></i>
+    </div>
+         
+    </div>
+    </div>
+    
+    <div class="post-container">
+        <div class="post-row">
+            <div class="user-porfile">
+                <img src="./photos/profile pic.webp">
+                <div>
+                    <p>Pascal Chidera</p>
+                    <span>October 5 2023, 1:18pm </span>
+                </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+        </div>
+        <p class="post-text">Like and share this video with friends, tag <span></span> facebook page on your post. Ask your doubts in the comments <a href="#"></a> <a href="#"></a></p>
+        <img src="./photos/Africa-4.webp" class="post-img">
+    
+    <div class="post-row">
+    <div class="activity-icons">
+        <div><img src="./photos/blue icons8-like-24.png">120</div>
+        <div><img src="./photos/discuss-fill.png">45</div>
+        <div><img src="./photos/share-forward-fill.png">20</div>  
+    </div>
+    <div class="post-profile-icon"><img src="./photos/profile pic.webp">
+    <i class="fa-solid fa-caret-down"></i>
+    </div>
+         
+    </div>
+    </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="footer">
+    <p>Copyright 2023</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
